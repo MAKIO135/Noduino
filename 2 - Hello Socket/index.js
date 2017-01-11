@@ -1,4 +1,4 @@
-var config = require( './config' ), //config.js file
+var config = require( './config.json' ), //config.json file
     express = require( 'express' ),
     app = express(),
     http = require( 'http' ).Server( app ),
